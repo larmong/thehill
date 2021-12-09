@@ -1133,21 +1133,30 @@
 	.logo {
 		width: 80px;
 	}
-
 	.thehill_box {
-		width: 380px;
-		height: 120px;
+		width: 260px;
+		height: 80px;
+		border: 2px solid #fff;
+		margin: 14px 0 30px 0;
 	}
 	.mt_top {
-		font-size: 20px;
+		font-size: 15px;
+		font-weight: 200;
 	}
 	.thehill_box .mt_center {
-		font-size: 60px;
-		line-height: 130px;
+		font-size: 36px;
+		line-height: 86px;
 	}
 	.mt_bottom {
 		font-size: 14px;
-		line-height: 27px;
+		line-height: 22px;
+	}
+
+	/* scroll */
+	.mousey {
+		padding: 3px 12px;
+		height: 35px;
+		border: 1.5px solid #fff;
 	}
 
 	/* sec2 */
@@ -1181,13 +1190,13 @@
 	/* sec3 */
 	.sec3_text h4 {
 		margin : 10px;
-		padding-top: 30px;
+		padding-top: 50px;
 	}
 
 	.sec3_text p {
 		font-size: 14px;
 		line-height: 20px;
-		padding: 0 60px;
+		padding: 0 50px;
 	}
 	.sec3_text p br {
 		display: none;
@@ -1196,6 +1205,14 @@
 		font-size: 16px;
 		margin-top: 0px;
 	}
+	.sec3_card .sec3Img {
+		width: 150px; height: 120px;
+		margin-right: 20px;
+		text-align: center;
+	}
+	.sec3_card_left { margin-right: 0px; }
+	.sec3_card_left2 { margin-right: 0px; }
+	
 	.sec3_card_box { padding: 10px 0%; }
 	.sec3_card {
 		margin-right: 0px;
