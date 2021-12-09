@@ -13,87 +13,174 @@ $(document).ready(function() {
 		afterLoad: function(anchorLink, index){
 			// section2
 			if(index == 2){
-				$('.section2 .fadeeff1')
+				$('.secCard1')
 					.css('opacity','1')
-					.css('margin-bottom','0px')
+					.css('transform','translateY(' + '0px' + ')')
 			} else {
-				$('.section2 .fadeeff1')
+				$('.secCard1')
 					.css('opacity','0')
-					.css('margin-bottom','-10%')
+					.css('transform','translateY(' + '100px' + ')')
 			};
-
 			if(index == 2){
-				$('.section2 .fadeeff2')
+				$('.secCard2')
 					.css('opacity','1')
-					.css('margin-bottom','0px')
+					.css('transform','translateY(' + '0px' + ')')
 			} else {
-				$('.section2 .fadeeff2')
+				$('.secCard2')
 					.css('opacity','0')
-					.css('margin-bottom','-20%')
+					.css('transform','translateY(' + '100px' + ')')
 			};
 
 			// section3
 			if(index == 3){
-				$('.section3 .fadeeff1')
+				$('.sec3_card1')
 					.css('opacity','1')
-					.css('margin-bottom','0px')
+					.css('top','100px')
 			} else {
-				$('.section3 .fadeeff1')
+				$('.sec3_card1')
 					.css('opacity','0')
-					.css('margin-bottom','-10%')
+					.css('top','200px')
 			};
-
 			if(index == 3){
-				$('.section3 .fadeeff4')
+				$('.sec3_card2')
 					.css('opacity','1')
-					.css('margin-bottom','0px')
+					.css('top','100px')
 			} else {
-				$('.section3 .fadeeff4')
+				$('.sec3_card2')
 					.css('opacity','0')
-					.css('margin-bottom','-20%')
+					.css('top','300px')
+			};
+			if(index == 3){
+				$('.sec3_card3')
+					.css('opacity','1')
+					.css('top','100px')
+			} else {
+				$('.sec3_card3')
+					.css('opacity','0')
+					.css('top','400px')
+			};
+			if(index == 3){
+				$('.sec3_card4')
+					.css('opacity','1')
+					.css('top','100px')
+			} else {
+				$('.sec3_card4')
+					.css('opacity','0')
+					.css('top','500px')
 			};
 
 			// section4
 			if(index == 4){
-				$('.sec4_text')
+				$('.sec4_card1')
 					.css('opacity','1')
-					.css('margin-top','0px')
+					.css('top','50px')
 			} else {
-				$('.sec4_text')
+				$('.sec4_card1')
 					.css('opacity','0')
-					.css('margin-top','-30%')
+					.css('top','300px')
 			};
-
 			if(index == 4){
-				$('.sec4_card_box')
+				$('.sec4_card2')
 					.css('opacity','1')
-					.css('margin-bottom','0px')
+					.css('top','50px')
 			} else {
-				$('.sec4_card_box')
+				$('.sec4_card2')
 					.css('opacity','0')
-					.css('margin-bottom','-30%')
+					.css('top','500px')
 			};
-
+			if(index == 4){
+				$('.sec4_card3')
+					.css('opacity','1')
+					.css('top','420px')
+			} else {
+				$('.sec4_card3')
+					.css('opacity','0')
+					.css('top','700px')
+			};
+			if(index == 4){
+				$('.sec4_card4')
+					.css('opacity','1')
+					.css('top','420px')
+			} else {
+				$('.sec4_card4')
+					.css('opacity','0')
+					.css('top','800px')
+			};
 
 			// section5
 			if(index == 5){
-				$('.sec5_text')
+				$('.sec5_card1')
 					.css('opacity','1')
-					.css('margin-top','0px')
+					.css('top','100px')
 			} else {
-				$('.sec5_text')
+				$('.sec5_card1')
 					.css('opacity','0')
-					.css('margin-top','-30%')
+					.css('top','200px')
+			};
+			if(index == 5){
+				$('.sec5_card2')
+					.css('opacity','1')
+					.css('top','100px')
+			} else {
+				$('.sec5_card2')
+					.css('opacity','0')
+					.css('top','300px')
+			};
+			if(index == 5){
+				$('.sec5_card3')
+					.css('opacity','1')
+					.css('top','100px')
+			} else {
+				$('.sec5_card3')
+					.css('opacity','0')
+					.css('top','400px')
+			};
+			if(index == 5){
+				$('.sec5_card4')
+					.css('opacity','1')
+					.css('top','100px')
+			} else {
+				$('.sec5_card4')
+					.css('opacity','0')
+					.css('top','500px')
 			};
 
-			if(index == 5){
-				$('.sec5_card_box')
+			// section6
+			if(index == 6){
+				$('.sec6_card1')
 					.css('opacity','1')
-					.css('margin-bottom','0px')
+					.css('top','50px')
 			} else {
-				$('.sec5_card_box')
+				$('.sec6_card1')
 					.css('opacity','0')
-					.css('margin-bottom','-30%')
+					.css('top','300px')
+			};
+			if(index == 6){
+				$('.sec6_card2')
+					.css('opacity','1')
+					.css('top','50px')
+			} else {
+				$('.sec6_card2')
+					.css('opacity','0')
+					.css('top','500px')
+			};
+			if(index == 6){
+				$('.sec6_card3')
+					.css('opacity','1')
+					.css('top','310px')
+			} else {
+				$('.sec6_card3')
+					.css('opacity','0')
+					.css('top','700px')
+			};
+			if(index == 6){
+				$('.sec6_card4')
+					.css('opacity','1')
+					.css('top','310px')
+			} else {
+				$('.sec6_card4')
+					.css('opacity','0')
+					.css('top','800px')
 			};
 		}
 	});
