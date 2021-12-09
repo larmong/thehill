@@ -966,9 +966,7 @@
 			display: none;
 		}
 
-
 		/* footer */
-
 		.footer {
 			position: relative;
 		}
@@ -1114,8 +1112,207 @@
 
 /* 화면 너비 0 ~ 480px */
 @media (max-width: 480px){
-    
+
+	/* title */
+	.sec_title {
+		top: 12%;
+	}
+	.sec_title h3 {
+		font-size: 30px;
+	}
+	.sec_title h3::before {
+		content: '';
+		width: 2px; height: 40px;
+		background: #3D509F;
+		position: absolute;
+		top: -60px; left: 50%; transform: translateX(-50%);
+		transform:rotate(20deg)
+	}
+		
+	/* sec1 */
+	.logo {
+		width: 80px;
+	}
+
+	.thehill_box {
+		width: 380px;
+		height: 120px;
+	}
+	.mt_top {
+		font-size: 20px;
+	}
+	.thehill_box .mt_center {
+		font-size: 60px;
+		line-height: 130px;
+	}
+	.mt_bottom {
+		font-size: 14px;
+		line-height: 27px;
+	}
+
+	/* sec2 */
+	.card_box { padding-top: 80px; }
+	.card {
+		width: 250px; height: 230px;
+		margin-top: 20px;
+	}
+	.card_text {
+		padding-top: 20px;
+	}
+	.card_text h4 {
+		font-size: 16px;
+	}
+	.card_text p {
+		display: none;
+	}
+	.card_text a::before {
+		display: none;
+	}
+	.card_text a {
+		width: 100px; height: 30px;
+		margin-top: 13px;
+	}
+	.card_text span {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 30px;
+	}
+	
+	/* sec3 */
+	.sec3_text h4 {
+		margin : 10px;
+		padding-top: 30px;
+	}
+
+	.sec3_text p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 0 60px;
+	}
+	.sec3_text p br {
+		display: none;
+	}
+	.sec3_card h6 {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	.sec3_card_box { padding: 10px 0%; }
+	.sec3_card {
+		margin-right: 0px;
+		margin-top: 40px;
+	}
+	.sec3_card h6 {
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+	/* sec4 */
+	.sec4_text h5 {
+		padding-top: 50px;
+		font-size: 24px;
+	}
+	.sec4_text p {
+		font-size: 14px;
+		line-height: 20px;
+		padding: 10px 60px;
+	}
+	.sec4_card {
+		width: 120px; height: 120px;
+		margin-right: 10px;
+		padding: 20px;
+	}
+	.sec4_card span {
+		display: none;
+	}
+	.sec4_card p br {
+		display: none;
+	}
+	.sec4_card p::before {
+		display: none;
+	}
+	.sec4_card p {
+		font-size: 10px;
+		line-height: 14px;
+		margin-top: 10px;
+	}
+
+	/* sec5 */
+	.sec5_text {
+		padding: 120px 0 0 0;
+	}
+	.sec5_card_box {
+		padding: 0 0%;
+	}
+	.sec5_text {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 20px 0 0 0;
+	}
+	.sec5_card_box {
+		padding: 0 0%;
+		margin-top: 50px;
+	}
+	.sec5_card {
+		width: 170px; height: 200px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.sec5_right { margin-right: 0px; }
+	.sec5_right2 { margin-right: 0px; }
+	.sec5_card h6 {
+		margin-top: 120px;
+		font-size: 20px;
+		font-weight: 400;
+	}
+	.sec5_card p {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.icon_box {
+		top: 20px;
+		width: 80px; height: 80px;
+	}
+	.icon_box i {
+		font-size: 36px;
+		line-height: 80px;
+	}
+
+	/* sec6 */
+	.recruit_bg {
+		height: 500px;
+		margin-top: 180px;
+	}  
+	.sec6_text h5 {
+		font-size: 16px;
+		margin: 0px 0 0 0;
+	}
+	.sec6_text a span {
+		font-size: 14px;
+	}
+	.sec6_card_box {
+		margin-top: 10px;
+	}
+
+	/* footer */
+	.f_logo {
+		display: none;
+	}
+	.copy {
+		display: block;
+		font-size: 12px;
+		margin-left: 50px;
+		padding: 10px;
+	}
+	.copy ul li {
+		margin-right: 10px;
+	}
+	.copy::before {
+		display: none;
+	}
+
 }
+
+
 
 /* 화면 너비 0 ~ 320px */
 @media (max-width: 320px){
