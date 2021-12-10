@@ -69,6 +69,44 @@ $(document).ready(function() {
 					.css('top','500px')
 			};
 
+			// M_section3
+			if(index == 3){
+				$('.Msec3_card1')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.Msec3_card1')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 3){
+				$('.Msec3_card2')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.Msec3_card2')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 3){
+				$('.Msec3_card3')
+					.css('opacity','1')
+					.css('top','210px')
+			} else {
+				$('.Msec3_card3')
+					.css('opacity','0')
+					.css('top','410px')
+			};
+			if(index == 3){
+				$('.Msec3_card4')
+					.css('opacity','1')
+					.css('top','210px')
+			} else {
+				$('.Msec3_card4')
+					.css('opacity','0')
+					.css('top','410px')
+			};
+
 			// section4
 			if(index == 4){
 				$('.sec4_card1')
@@ -105,6 +143,82 @@ $(document).ready(function() {
 				$('.sec4_card4')
 					.css('opacity','0')
 					.css('top','800px')
+			};
+
+			// M_section4
+			if(index == 4){
+				$('.Msec4_card1')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.Msec4_card1')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 4){
+				$('.Msec4_card2')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.Msec4_card2')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 4){
+				$('.Msec4_card3')
+					.css('opacity','1')
+					.css('top','180px')
+			} else {
+				$('.Msec4_card3')
+					.css('opacity','0')
+					.css('top','400px')
+			};
+			if(index == 4){
+				$('.Msec4_card4')
+					.css('opacity','1')
+					.css('top','180px')
+			} else {
+				$('.Msec4_card4')
+					.css('opacity','0')
+					.css('top','400px')
+			};
+
+			// M_section3
+			if(index == 5){
+				$('.Msec5_card1')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.Msec5_card1')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 5){
+				$('.Msec5_card2')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.Msec5_card2')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 5){
+				$('.Msec5_card3')
+					.css('opacity','1')
+					.css('top','210px')
+			} else {
+				$('.Msec5_card3')
+					.css('opacity','0')
+					.css('top','410px')
+			};
+			if(index == 5){
+				$('.Msec5_card4')
+					.css('opacity','1')
+					.css('top','210px')
+			} else {
+				$('.Msec5_card4')
+					.css('opacity','0')
+					.css('top','410px')
 			};
 
 			// section5
