@@ -107,6 +107,44 @@ $(document).ready(function() {
 					.css('top','410px')
 			};
 
+			// M2_section3
+			if(index == 3){
+				$('.M2sec3_card1')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.M2sec3_card1')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 3){
+				$('.M2sec3_card2')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.M2sec3_card2')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 3){
+				$('.M2sec3_card3')
+					.css('opacity','1')
+					.css('top','165px')
+			} else {
+				$('.M2sec3_card3')
+					.css('opacity','0')
+					.css('top','365px')
+			};
+			if(index == 3){
+				$('.M2sec3_card4')
+					.css('opacity','1')
+					.css('top','165px')
+			} else {
+				$('.M2sec3_card4')
+					.css('opacity','0')
+					.css('top','365px')
+			};
+
 			// section4
 			if(index == 4){
 				$('.sec4_card1')
@@ -183,7 +221,45 @@ $(document).ready(function() {
 					.css('top','400px')
 			};
 
-			// M_section3
+			// M2_section4
+			if(index == 4){
+				$('.M2sec4_card1')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.M2sec4_card1')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 4){
+				$('.M2sec4_card2')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.M2sec4_card2')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 4){
+				$('.M2sec4_card3')
+					.css('opacity','1')
+					.css('top','130px')
+			} else {
+				$('.M2sec4_card3')
+					.css('opacity','0')
+					.css('top','330px')
+			};
+			if(index == 4){
+				$('.M2sec4_card4')
+					.css('opacity','1')
+					.css('top','130px')
+			} else {
+				$('.M2sec4_card4')
+					.css('opacity','0')
+					.css('top','330px')
+			};
+
+			// M_section5
 			if(index == 5){
 				$('.Msec5_card1')
 					.css('opacity','1')
@@ -219,6 +295,44 @@ $(document).ready(function() {
 				$('.Msec5_card4')
 					.css('opacity','0')
 					.css('top','410px')
+			};
+
+			// M2_section5
+			if(index == 5){
+				$('.M2sec5_card1')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.M2sec5_card1')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 5){
+				$('.M2sec5_card2')
+					.css('opacity','1')
+					.css('top','0px')
+			} else {
+				$('.M2sec5_card2')
+					.css('opacity','0')
+					.css('top','200px')
+			};
+			if(index == 5){
+				$('.M2sec5_card3')
+					.css('opacity','1')
+					.css('top','165px')
+			} else {
+				$('.M2sec5_card3')
+					.css('opacity','0')
+					.css('top','365px')
+			};
+			if(index == 5){
+				$('.M2sec5_card4')
+					.css('opacity','1')
+					.css('top','165px')
+			} else {
+				$('.M2sec5_card4')
+					.css('opacity','0')
+					.css('top','365px')
 			};
 
 			// section5
