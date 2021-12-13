@@ -39,35 +39,31 @@
 
 /* container */ 
 .container {
-	width: 1300px; height: 900px;
+	width: 1300px;
 	margin: 0 auto;
 	font-family: 'NanumBarunGothic';
-	font-weight: 200;	
+	font-weight: 200;
 }
 
 /* layout */
 .section2, .section3, .section4, .section5, .section6 {
-	width: 100%; height: 100%;
-	margin-top: 20%;
+	/* width: 100%; height: 100%; */
 }
 /* title */
-.sec_title {
-	position: absolute;
-	top: 16%; left: 50%; transform: translateX(-50%);
-}
 .sec_title h3 {
 	position: relative;
 	text-align: center;
 	font-family: 'SBAggroB';
 	font-size: 49px;
 	color: #3D509F;
+	margin-top: 5%;
 }
 .sec_title h3::before {
 	content: '';
 	width: 3px; height: 40px;
 	background: #3D509F;
 	position: absolute;
-	top: -60px; left: 50%; transform: translateX(-50%);
+	top: -55px; left: 50%; transform: translateX(-50%);
 	transform:rotate(20deg)
 }
 
@@ -148,11 +144,12 @@
 	100% { transform: translateY(15px); opacity: 0;}
   }
 
+
 /* section2 */
 .sec2_card_box { text-align: center; padding: 50px 0; }
 .sec2_card {
 	display: inline-block;
-	width: 576px; height: 584px;
+	width: 500px; height: 550px;
 	overflow: hidden;
 	background: #fff;
 	box-shadow: 0px 7px 17px #00000008;
@@ -170,16 +167,17 @@
 	transform: translateY('100px');
 	transition: 0.8s;
 }
+
 .sec2_img {
 	width: 100%; height: 300px;
 	background: #999;
 	overflow: hidden;
 }
 .sec2_img img {
-	width: 100%;
+	height: 100%;
 }
 .sec2_text {
-	padding: 50px 0;
+	padding: 36px 0;
 }
 .sec2_text h4 {
 	font-size: 30px;
@@ -221,7 +219,6 @@
 	transition: all 0.5s;
 }
 
-
 /* section3 */
 .section3 .sec_title h3 { color: #fff; }
 .section3 .sec_title h3::before { background: #fff; }
@@ -232,6 +229,7 @@
 }
 .sec3_text h4 {
 	font-size: 44px;
+	margin: 2% 0;
 }
 .sec3_text p {
 	margin-top: 15px;
@@ -242,9 +240,8 @@
 .sec3_card_box {
 	position: relative;
 	text-align: center;
-	padding-top: 100px;
-	margin: 0px 30px;
 	color: #fff;
+	height: 500px;
 }
 .sec3_card {
 	position: absolute;
@@ -310,12 +307,11 @@
 	margin-right: 12px;
 }
 
-
 /* section4 */
 .sec4_text {
 	float: left;
 	width: 40%;
-	padding: 50px 0;
+	padding: 10% 0;
 	color: #3D509F;
 }
 .sec4_text i {
@@ -336,7 +332,7 @@
 .sec4_card_box {
 	position: relative;
 	float: right;
-	width: 52%;  height: 100%;
+	width: 52%;  height: 750px;
 	color: #3D509F;
 }
 .sec4_card {
@@ -442,7 +438,8 @@
 	position: relative;
 	text-align: center;
 	padding-top: 100px;
-	margin: 0px 26px;
+	/* margin: 0px 26px; */
+	height: 400px;
 	color: #fff;
 }
 .sec5_card {
@@ -515,24 +512,22 @@
 	line-height: 23px;
 }
 
-
 /* section6 */
 .section6 .sec_title h3 { color: #fff; }
 .section6 .sec_title h3::before { background: #fff; }
 
 .recruit_bg {
 	position: absolute;
-	top: 25%;
-	width: 100%; height: 590px;
+	bottom: 0;
+	width: 100%; height: 100%;
 	background: url(../img/section6_bg.png);
 	background-size: cover;
 }
-.recruit { height: 590px; }
 .sec6_text {
 	float: left;
 	width: 40%;
 	color: #fff;
-	padding: 50px 0;
+	padding: 140px 0;
 	position: fixed;
 }
 .sec6_text i {
@@ -570,7 +565,7 @@
 .sec6_card_box {
 	position: relative;
 	float: right;
-	width: 54%; height: 100%;
+	width: 54%; height: 500px;
 	padding: 50px 0;
 }
 .sec6_card {
@@ -631,12 +626,10 @@
 /* footer */
 .footer {
 	clear: both;
-	position: absolute;
-	left: 50%; transform: translateX(-50%);
-	width: 100%;
 	text-align: center;
-	color: #BDBDBD;
-	padding: 100px 0;
+	color: #BDBDBD; 
+	width: 100%;
+	padding: 80px 0;
 }
 
 .f_logo {
@@ -1023,16 +1016,12 @@
 	}
 
 	/* section6 */
-	.recruit_bg {
-		position: absolute;
-		top: 22%; height: 400px;
-	}
-	.recruit { height: 400px; }
+	.sec6_card_box { display: none; }
 
 	.sec6_text {
 		float: none;
 		width: 100%;
-		padding: 100px 20;
+		padding: 60px 0;
 		text-align: center;
 	}
 	.sec6_text i {
@@ -1057,10 +1046,8 @@
 	.sec6_card4 { display: none; }
 	
 	/* footer */
-	.footer {
-		padding: 0px 0;
-		margin-top: 30px;
-	}
+	#section7 .container { width: 100%; height: auto; }
+	.footer { padding: 30px 0; }
 	.f_logo { display: none; }
 
 	.copy {
@@ -1377,12 +1364,6 @@
 	}
 
 	/* section6 */
-	.recruit_bg {
-		position: absolute;
-		top: 22%; height: 260px;
-	}
-	.recruit { height: 260px; }
-
 	.sec6_text {
 		float: none;
 		width: 100%;
@@ -1405,9 +1386,12 @@
 		font-size: 10px;
 		line-height: 30px;
 	}
+	.sec6_card_box {
+		display: none;
+	}
 
 	/* footer */
-	.copy { font-size: 10px; }
+	.copy { font-size: 10px; padding: 0 10px; }
 	.copy ul li { margin-right: 6px; }
 	.copy ul li:nth-child(5) { display: none; }
 	.copy p br { display: none; }

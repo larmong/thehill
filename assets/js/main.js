@@ -8,7 +8,7 @@ $(document).ready(function() {
         navigationPosition: 'right',
         navigationTooltips: ['No.1 THEHILL', 'THEHILL YOUTUBE', 'THEHILL STRATEGY', 'THEHILL INVESTMENT', 'THEHILL SERVICE', 'THEHILL RECRUITMENT'],
         showActiveTooltip: false,
-        sectionsColor: ['#000000', '#F5F5F6', '#3D509F', '#F5F5F6', '#F0F0F4', '#3D509F'],
+        sectionsColor: ['#000000', '#F5F5F6', '#3D509F', '#F5F5F6', '#F0F0F4', '#3D509F', '#3D509F'],
 
 		afterLoad: function(anchorLink, index){
 			// section2
@@ -374,7 +374,7 @@ $(document).ready(function() {
 			};
 
 			// section6
-			if(index == 6){
+			if(index == 6 || index == 7){
 				$('.sec6_card1')
 					.css('opacity','1')
 					.css('top','50px')
@@ -383,7 +383,7 @@ $(document).ready(function() {
 					.css('opacity','0')
 					.css('top','300px')
 			};
-			if(index == 6){
+			if(index == 6 || index == 7){
 				$('.sec6_card2')
 					.css('opacity','1')
 					.css('top','50px')
@@ -392,7 +392,7 @@ $(document).ready(function() {
 					.css('opacity','0')
 					.css('top','500px')
 			};
-			if(index == 6){
+			if(index == 6 || index == 7){
 				$('.sec6_card3')
 					.css('opacity','1')
 					.css('top','310px')
@@ -401,7 +401,7 @@ $(document).ready(function() {
 					.css('opacity','0')
 					.css('top','700px')
 			};
-			if(index == 6){
+			if(index == 6 || index == 7){
 				$('.sec6_card4')
 					.css('opacity','1')
 					.css('top','310px')
